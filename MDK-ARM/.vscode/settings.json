@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "string.h": "c",
+        "protocol.h": "c",
+        "stm32f4xx.h": "c",
+        "usart.h": "c",
+        "main.h": "c",
+        "stm32f4xx_hal_uart.h": "c"
+    }
+}

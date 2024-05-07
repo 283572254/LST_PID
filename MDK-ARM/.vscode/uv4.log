@@ -1,0 +1,17 @@
+*** Using Compiler 'V5.05 update 1 (build 106)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'LST_PID'
+compiling protocol.c...
+..\Core\Src\protocol.c(300): warning:  #550-D: variable "p_temp" was set but never used
+          float p_temp, i_temp, d_temp;
+..\Core\Src\protocol.c(300): warning:  #550-D: variable "i_temp" was set but never used
+          float p_temp, i_temp, d_temp;
+..\Core\Src\protocol.c(300): warning:  #550-D: variable "d_temp" was set but never used
+          float p_temp, i_temp, d_temp;
+..\Core\Src\protocol.c(338): warning:  #177-D: variable "temp" was declared but never referenced
+          uint32_t temp = COMPOUND_32BIT(&frame_data[13]);     // ÖÜÆÚÊý
+..\Core\Src\protocol.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=7558 RO-data=450 RW-data=40 ZI-data=1928  
+FromELF: creating hex file...
+"LST_PID\LST_PID.axf" - 0 Error(s), 4 Warning(s).
+Build Time Elapsed:  00:00:02
